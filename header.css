@@ -1,0 +1,91 @@
+.logo {
+  padding: 0;
+  margin: 0;
+  visibility: visible;
+  transition: 0.5s;
+  margin-left: -5rem;
+}
+
+.logo.active {
+  margin-left: 12vw;
+  transition: 0.5s;
+}
+
+.menu-btn.active,
+.menu-btn2.active {
+  visibility: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.search-box {
+  position: relative;
+  height: 70px;
+  width: 0px;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 0.55);
+}
+
+.search-box input.active {
+  cursor: text;
+  margin-left: 10px;
+  transition: 0.5s;
+  margin-left: 25vw;
+  visibility: visible;
+}
+
+.search-box input {
+  height: 70%;
+  width: 100%;
+  border: none;
+  background: #fff;
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 0 60px 0 20px;
+  cursor: default;
+  visibility: hidden;
+  transition: 0.5s ease-in;
+}
+
+.search-box.active {
+  width: 45vw;
+}
+
+.search-box .search-btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  position: absolute;
+  top: 40%;
+  margin-left: 1rem;
+}
+
+.search-box .search-btn.active {
+  visibility: hidden;
+}
+
+.search-box .cancel-btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  position: absolute;
+  top: 40%;
+  margin-left: 1rem;
+  visibility: hidden;
+  align-items: center;
+}
+
+.search-box .cancel-btn.active {
+  visibility: visible;
+}
+
+.account {
+  color: #fff;
+  cursor: pointer;
+  font-size: 21px;
+  margin-right: 1rem;
+  visibility: visible;
+}
+
+.account.active {
+  visibility: hidden;
+}
