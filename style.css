@@ -111,7 +111,7 @@ nav li a:hover {
 }
 
 nav li {
-  /* display: inlin */e-block; /* Placerar ul bredvid varandra */
+  display: inline-block; /* Placerar ul bredvid varandra */
   padding: 0px 4em;
 }
 
@@ -129,9 +129,9 @@ nav li a:hover {
   border: 1px solid white;
 }
 
-  .search-box {
-    height: 60px;
-    width:350px;
+.search-box {
+  height: 60px;
+  width: 350px;
 }
 
 #search-btn {
@@ -156,7 +156,7 @@ nav li a:hover {
 }
 
 .close {
- font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .close {
@@ -166,7 +166,6 @@ nav li a:hover {
 span {
   color: #fff;
 }
-
 
 .close {
   cursor: pointer;
