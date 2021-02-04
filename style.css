@@ -50,6 +50,7 @@ nav li a:hover {
 }
 
 .search-box input.active {
+  cursor: text;
 }
 
 .search-box input {
@@ -64,31 +65,21 @@ nav li a:hover {
 }
 
 .search-box.active {
-  width: 350px;
+  width: 550px;
 }
 
 .search-box .search-btn {
   color: #fff;
   cursor: pointer;
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
   font-size: 18px;
-  text-align: center;
-  border-radius: 50%;
 }
 
 .search-box .search-btn.active {
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
-  font-size: 18px;
-  text-align: center;
-  border-radius: 50%;
+  z-index: 1;
 }
 
 .search-box .cancel-btn {
   color: #fff;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 18px;
 }
