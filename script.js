@@ -1,4 +1,4 @@
-var modal = document.getElementById("search");
+var modal = document.getElementById("search-box");
 var btn = document.getElementById("search-btn");
 var span = document.getElementsByClassName("close")[0];
 

@@ -125,12 +125,13 @@ nav li a:hover {
 }
 
 #search {
-  .search-box {
-    height: 60px;
-    width:350px; ;
-  }
   display: none;
   border: 1px solid white;
+}
+
+  .search-box {
+    height: 60px;
+    width:350px;
 }
 
 #search-btn {
@@ -140,6 +141,32 @@ nav li a:hover {
 .fas {
   font-size: 1.2rem;
 }
+
+.cancel-btn {
+  cursor: pointer;
+  color: #fff;
+}
+
+.fas {
+  font-size: 1.2rem;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.close {
+ font-size: 1.2rem;
+}
+
+.close {
+  cursor: pointer;
+}
+
+span {
+  color: #fff;
+}
+
 
 .close {
   cursor: pointer;
