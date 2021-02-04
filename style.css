@@ -49,10 +49,9 @@ nav li a:hover {
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 0.55);
 }
 
-.search-box input.active {
-  cursor: text;
+/* .search-box input.active {
 }
-
+*/
 .search-box input {
   height: 50%;
   width: 100%;
@@ -65,10 +64,9 @@ nav li a:hover {
 }
 
 .search-box.active {
-  width: 550px;
+  width: 350px;
 }
 
-<<<<<<< HEAD
 nav li a:hover {
   color: #ee2034;
   background-color: #050e22;
@@ -146,20 +144,26 @@ span {
 }
 
 .close {
-=======
-.search-box .search-btn {
-  color: #fff;
->>>>>>> b8655cf4e4e3e8f2f5b63cc9d1fc777127fdeb8c
   cursor: pointer;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
   font-size: 18px;
+  text-align: center;
+  border-radius: 50%;
 }
 
 .search-box .search-btn.active {
-  z-index: 1;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 50%;
 }
 
 .search-box .cancel-btn {
   color: #fff;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 25px;
 }
