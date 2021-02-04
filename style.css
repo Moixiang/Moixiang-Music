@@ -21,7 +21,6 @@ a {
   font-size: 17px; /* Storleken på texten  */
   color: white;
   text-decoration: none;
-  padding: 2.5em 1.9em;
 }
 
 nav {
@@ -42,11 +41,97 @@ nav li a:hover {
   background-color: #050e22;
 }
 
-.search-box {
-  position: relative;
-  height: 60px;
-  width: 60px;
-  transition: all 0.5s;
+nav li {
+  display: inline-block; /* Placerar ul bredvid varandra */
+  padding: 0px 4em;
+}
+
+nav a {
+  transition: all 0.3s ease 0s;
+}
+
+nav li a:hover {
+  color: #ee2034;
+  background-color: #050e22;
+}
+
+nav li {
+  display: inline-block; /* Placerar ul bredvid varandra */
+  padding: 0px 4em;
+}
+
+nav a {
+  transition: all 0.3s ease 0s;
+}
+
+nav li a:hover {
+  color: #ee2034;
+  background-color: #050e22;
+}
+
+nav li {
+  display: inline-block; /* Placerar ul bredvid varandra */
+  padding: 0px 4em;
+}
+
+nav a {
+  transition: all 0.3s ease 0s;
+}
+
+nav li a:hover {
+  color: #ee2034;
+  background-color: #050e22;
+}
+
+nav li {
+  display: inline-block; /* Placerar ul bredvid varandra */
+  padding: 0px 4em;
+}
+
+nav a {
+  transition: all 0.3s ease 0s;
+}
+
+nav li a:hover {
+  color: #ee2034;
+  background-color: #050e22;
+}
+
+nav li {
+  display: inline-block; /* Placerar ul bredvid varandra */
+  padding: 0px 4em;
+}
+
+nav a {
+  transition: all 0.3s ease 0s;
+}
+
+nav li a:hover {
+  color: #ee2034;
+  background-color: #050e22;
+}
+
+nav li {
+  /* display: inlin */e-block; /* Placerar ul bredvid varandra */
+  padding: 0px 4em;
+}
+
+nav a {
+  transition: all 0.3s ease 0s;
+}
+
+nav li a:hover {
+  color: #ee2034;
+  background-color: #050e22;
+}
+
+#search {
+  .search-box {
+    height: 60px;
+    width:350px; ;
+  }
+  display: none;
+  border: 1px solid white;
 }
 
 .search-box input.active {

@@ -10,10 +10,12 @@ searchBtn.onclick = () =>{
   cancelBtn.classList.add("active");
 }
 
-cancelBtn.onclick = () =>{
-  searchBtn.classList.remove("active");
-  searchBox.classList.remove("active");
-  searchInput.classList.remove("active");
-  cancelBtn.classList.remove("active");
-  console.log('it works')
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
