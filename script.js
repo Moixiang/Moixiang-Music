@@ -1,26 +1,19 @@
-var modal = document.getElementById("search");
-var btn = document.getElementById("search-btn");
-var span = document.getElementsByClassName("close")[0];
+const searchBtn = document.querySelector(".search-btn")
+const searchInput = document.querySelector(".input")
+const cancelBtn = document.querySelector(".cancel-btn")
+const searchBox = document.querySelector(".search-box")
 
-btn.onclick = function() {
-  modal.style.display = "block";
+searchBtn.onclick = () =>{
+  searchBtn.classList.add("active");
+  searchBox.classList.add("active");
+  searchInput.classList.add("active");
+  cancelBtn.classList.add("active");
 }
 
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// window.onclick = function(event) {
-//   if (event.target == modal) {
-//     modal.style.display = "none";
-//   }
-// }
-
-window.onclick = function (event) {
-  if (modal.style.display === "block") {
-    var modalContent = modal.querySelector(".modal-content");
-    if (!modalContent.contains(event.target)) {
-      modal.style.display = "none";
-    }
-  }
+cancelBtn.onclick = () =>{
+  searchBtn.classList.remove("active");
+  searchBox.classList.remove("active");
+  searchInput.classList.remove("active");
+  cancelBtn.classList.remove("active");
+  console.log('it works')
 }
