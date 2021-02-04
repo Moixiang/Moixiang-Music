@@ -1,5 +1,5 @@
 const searchBtn = document.querySelector(".search-btn")
-const searchInput = document.querySelector(".input")
+const searchInput = document.querySelector(".searcinput")
 const cancelBtn = document.querySelector(".cancel-btn")
 const searchBox = document.querySelector(".search-box")
 
@@ -15,5 +15,4 @@ cancelBtn.onclick = () =>{
   searchBox.classList.remove("active");
   searchInput.classList.remove("active");
   cancelBtn.classList.remove("active");
-  console.log('it works')
 }
