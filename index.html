@@ -4,19 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moixiang</title>
-  <link rel="stylesheet" href="music.css">
+  <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="shortcut icon" type="image/png" href="Bilder/Moixiang-Music Logo.jpg">
 
 </head>
 <body>
   <header>
-    <span><i class="fas fa-search"></i></span>
-    <a href="#">Toplists</a>
-    <a href="#">News</a>
-    <img src="Bilder/Moixiang-Music Logo.jpg" alt="Moixiang-Music Logo">
-    <a href="#">Genre</a>
-    <a href="#">Library</a>
-    <span><i class="fas fa-user-circle"></i></span>
+    
+
+
+    <div class="search">
+      <button><i class="fas fa-search search-btn" onclick="document.getElementById('id01').style.display='block'"></i></button>
+    </div>
+
+    <div id="id01" class="modal1">
+      <span onclick="document.getElementById('id01').style.display='none'"
+      class="close" title="Close Modal">&times;</span>
+    </div>
+    
+    <div class="modal-content animate">
+      <div class="search-container">
+        <img src="Bilder/legend.jpg" alt="">
+      </div>
+    </div>
+
+
+
+
+
+    
+        <ul><li><a href="#">News</a></li></ul>      
+        <ul><li><a href="#">Top Lists</a></li></ul>    
+        <img src="Bilder/Moixiang-Music Logo.jpg" alt="Moixiang-Music Logo" width="200">
+        <ul><li><a href="#">Genre</a></li></ul>    
+        <ul><li><a href="#">Library</a></li></ul>    
+        <span><i class="fas fa-user-circle"></i></span>
+  
+   
+ 
   </header>
   <main>
 
