@@ -21,6 +21,7 @@ a {
   font-size: 17px; /* Storleken på texten  */
   color: white;
   text-decoration: none;
+  padding: 2.5em 1.9em;
 }
 
 nav {
@@ -41,97 +42,11 @@ nav li a:hover {
   background-color: #050e22;
 }
 
-nav li {
-  display: inline-block; /* Placerar ul bredvid varandra */
-  padding: 0px 4em;
-}
-
-nav a {
-  transition: all 0.3s ease 0s;
-}
-
-nav li a:hover {
-  color: #ee2034;
-  background-color: #050e22;
-}
-
-nav li {
-  display: inline-block; /* Placerar ul bredvid varandra */
-  padding: 0px 4em;
-}
-
-nav a {
-  transition: all 0.3s ease 0s;
-}
-
-nav li a:hover {
-  color: #ee2034;
-  background-color: #050e22;
-}
-
-nav li {
-  display: inline-block; /* Placerar ul bredvid varandra */
-  padding: 0px 4em;
-}
-
-nav a {
-  transition: all 0.3s ease 0s;
-}
-
-nav li a:hover {
-  color: #ee2034;
-  background-color: #050e22;
-}
-
-nav li {
-  display: inline-block; /* Placerar ul bredvid varandra */
-  padding: 0px 4em;
-}
-
-nav a {
-  transition: all 0.3s ease 0s;
-}
-
-nav li a:hover {
-  color: #ee2034;
-  background-color: #050e22;
-}
-
-nav li {
-  display: inline-block; /* Placerar ul bredvid varandra */
-  padding: 0px 4em;
-}
-
-nav a {
-  transition: all 0.3s ease 0s;
-}
-
-nav li a:hover {
-  color: #ee2034;
-  background-color: #050e22;
-}
-
-nav li {
-  /* display: inlin */e-block; /* Placerar ul bredvid varandra */
-  padding: 0px 4em;
-}
-
-nav a {
-  transition: all 0.3s ease 0s;
-}
-
-nav li a:hover {
-  color: #ee2034;
-  background-color: #050e22;
-}
-
-#search {
-  .search-box {
-    height: 60px;
-    width:350px; ;
-  }
-  display: none;
-  border: 1px solid white;
+.search-box {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 0.55);
 }
 
 .search-box input.active {
@@ -144,32 +59,37 @@ nav li a:hover {
   background: #fff;
   font-size: 18px;
   border-radius: 50px;
-  /* opacity: 0; */
+  padding: 0 60px 0 20px;
+  opacity: 0;
   cursor: default;
 }
 
 .search-box.active {
   width: 350px;
-  opacity: 1;
-  color: #fff;
 }
 
 .search-box .search-btn {
   color: #fff;
   cursor: pointer;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
   font-size: 18px;
+  text-align: center;
+  border-radius: 50%;
 }
 
 .search-box .search-btn.active {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 50%;
 }
 
 .search-box .cancel-btn {
   color: #fff;
   cursor: pointer;
-  font-size: 18px;
-  /* opacity: 0;   */
-}
-
-.search-box .cancel-btn.active {
-  opacity: 1;
+  font-size: 25px;
 }
