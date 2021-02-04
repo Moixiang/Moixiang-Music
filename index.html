@@ -4,45 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Moixiang</title>
+
+  <!-- Css -->
   <link rel="stylesheet" href="style.css">
+  <!-- JS -->
+  <script src="script.js" defer></script>
+
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link rel="shortcut icon" type="image/png" href="Bilder/Moixiang-Music Logo.jpg">
 
 </head>
 <body>
   <header>
-    
-
 
     <div class="search">
-      <button><i class="fas fa-search search-btn" onclick="document.getElementById('id01').style.display='block'"></i></button>
-    </div>
+      <button><i class="fas fa-search" id="search-btn"> </i></button>
+      <div id="search">
+        <span class="close" >&times;</span>
+            <div class="search-bar">
+              <input type="text" placeholder="Search..">
+            </div>
+          </div>
+        </div>
 
-    <div id="id01" class="modal1">
-      <span onclick="document.getElementById('id01').style.display='none'"
-      class="close" title="Close Modal">&times;</span>
-    </div>
-    
-    <div class="modal-content animate">
-      <div class="search-container"><img src="Bilder/legend.jpg" alt="legend">
-      </div>
-    </div>
-
-
-
-
-
-    
-        <ul><li><a href="#">News</a></li></ul>      
-        <ul><li><a href="#">Top Lists</a></li></ul>    
+      <div class="menu-btn">
+        <ul>
+          <li><a href="#">Top lists</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
         <img src="Bilder/Moixiang-Music Logo.jpg" alt="Moixiang-Music Logo" width="200">
-        <ul><li><a href="#">Genre</a></li></ul>    
-        <ul><li><a href="#">Library</a></li></ul>    
+        <ul>
+          <li><a href="#">Genre</a></li>
+          <li><a href="#">Library</a></li>
+        </ul>
+      </div>
+      
+      <div class="account">
         <span><i class="fas fa-user-circle"></i></span>
+      </div>
   
-   
- 
   </header>
+
   <main>
 
   </main>

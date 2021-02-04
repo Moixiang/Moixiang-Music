@@ -6,16 +6,31 @@ body {
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #061029;
 }
 
-.menubtn ul,
-a {
-  list-style-type: none;
-  text-decoration: none;
+#search {
+  display: none;
 }
 
-.modal1 {
-  display: none;
+#search-btn {
+  color: #fff;
+}
+
+.fas {
+  font-size: 1.2rem;
+}
+
+.close {
+  cursor: pointer;
+}
+
+span {
+  color: #fff;
+}
+
+button {
+  background-color: #061029;
+  border-style: none;
 }
