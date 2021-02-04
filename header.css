@@ -7,7 +7,8 @@
 }
 
 .logo.active {
-  margin-left: 12vw;
+  text-align: center;
+  /*margin-left: 12vw;*/
   transition: 0.5s;
 }
 
