@@ -2,7 +2,7 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-  z-index: 10000000000000000000000000000000000000000;
+  z-index: 10000000000000000000000000000000000000000; /*  Jing vad är detta?  */
 }
 
 .header-content {
