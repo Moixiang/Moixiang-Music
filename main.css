@@ -1,14 +1,14 @@
-.main-content {
+.main-container {
   display: grid;
   grid-template-columns: 20vw 1fr;
   margin: 1rem 0px;
 }
 
-.profile-left {
+.main-left {
   margin-right: 1.5rem;
 }
 
-.fas {
+.profile-img {
   font-size: 2em;
 }
 
@@ -20,19 +20,15 @@
   margin-bottom: 1rem;
 }
 
-.profile-img {
-  font-size: 100rem;
-}
-
 .profile-text {
-  margin: 0;
+  margin-left: 5px;
 }
 
-.profile-right img {
-  width: 14rem;
+.main-right img {
+  width: 15rem;
 }
 
-.profile-right {
+.main-right {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 5em 2em;
@@ -47,7 +43,7 @@
   position: absolute;
   left: 19%;
   transform: translate(-50%);
-  border: 1.3px solid black;
+  border: 2px solid black;
   min-height: 200%;
   z-index: 0;
 }
