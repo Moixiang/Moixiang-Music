@@ -1,19 +1,31 @@
 .main-content {
   display: grid;
   grid-template-columns: 20vw 1fr;
-  margin: 1rem;
+  margin: 1rem 0px;
 }
 
 .profile-left {
+  margin-right: 1.5rem;
 }
 
-i {
-  display: block;
+.fas {
   font-size: 2em;
 }
 
 .profile {
-  font-size: 3rem;
+  display: flex;
+  border: 2px solid black;
+  height: 2.5rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.profile-img {
+  font-size: 100rem;
+}
+
+.profile-text {
+  margin: 0;
 }
 
 .profile-right img {
@@ -24,4 +36,18 @@ i {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 5em 2em;
+}
+
+.song-img {
+  padding: 1.5rem;
+  border: 1.5px solid black;
+}
+
+.line {
+  position: absolute;
+  left: 19%;
+  transform: translate(-50%);
+  border: 1.3px solid black;
+  min-height: 200%;
+  z-index: 0;
 }
