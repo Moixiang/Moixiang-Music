@@ -135,8 +135,11 @@ nav li a:hover,
 
 .main-content {
   display: grid;
-  grid-template-columns: 20vw auto;
+  grid-template-columns: 20vw 1fr auto;
   margin: 2em;
+}
+
+.profile-left {
 }
 
 .profile-left span {

@@ -3,17 +3,13 @@ const searchInput = document.querySelector(".searchinput")
 const searchBox = document.querySelector(".search-box")
 const cancelBtn = document.querySelector(".cancel-btn")
 const account = document.querySelector(".account")
-const logoLink = document.querySelector(".logo-link")
 const logoBtn = document.querySelector(".logo-btn")
-const logoImg = document.querySelector(".logo-img")
 const menuBtn = document.querySelector(".menu-btn")
 const menuBtn2 = document.querySelector(".menu-btn2")
 
 searchBtn.onclick = () =>{
   account.classList.add("active");
-  logoLink.classList.add("active");
   logoBtn.classList.add("active");
-  logoImg.classList.add("active");
   menuBtn.classList.add("active");
   menuBtn2.classList.add("active");
   cancelBtn.classList.add("active");
@@ -24,9 +20,7 @@ searchBtn.onclick = () =>{
 
 cancelBtn.onclick = () =>{
   account.classList.remove("active");
-  logoLink.classList.add("active");
   logoBtn.classList.add("active");
-  logoImg.classList.add("active");
   menuBtn.classList.remove("active");
   menuBtn2.classList.remove("active");
   searchInput.classList.remove("active");
