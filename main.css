@@ -1,7 +1,7 @@
 .main-content {
   display: grid;
-  grid-template-columns: 20vw 1fr auto;
-  margin: 2em;
+  grid-template-columns: 20vw 1fr;
+  margin: 1rem;
 }
 
 .profile-left {
@@ -11,8 +11,12 @@
   display: block;
 }
 
+.profile {
+  font-size: 3rem;
+}
+
 .profile-right img {
-  width: 18em;
+  width: 14rem;
 }
 
 .profile-right {
