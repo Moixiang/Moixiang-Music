@@ -1,16 +1,37 @@
 .main-container {
   display: grid;
   grid-template-columns: 20vw 1fr;
-  margin: 1rem 0px;
 }
 
 .main-left {
-  margin-right: 1.5rem;
+  padding-top: 1em;
+  background: #071331;
+  background-clip: padding-box;
 }
 
 .main-right {
+  padding-top: 1em;
   background-color: #050e22;
+  background-clip: padding-box ;
+  
 }
+
+.background-color {
+  display: grid;
+  grid-template-columns: 20vw 1fr;
+}
+
+.background-color-left {
+  padding-top: 1rem;
+  background: #071331;
+
+}
+
+.background-color-right {
+  padding-top: 1rem;
+  background:#050e22 ;  
+}
+
 
 .profile-img {
   font-size: 2em;
@@ -22,10 +43,12 @@
   align-items: center;
   margin-bottom: 1rem;
   margin-left: 7px;
+  margin-right: 8px;
   height: 2.5rem;
   cursor: pointer;
   border: 1.5px solid black;
   border-radius: 5px;
+  color: white;
 }
 
 .profile-text {
@@ -40,6 +63,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 5em 2em;
+  padding-left: 12px;  
 }
 
 .song-img {
@@ -47,6 +71,11 @@
   border: 1.5px solid black;
 }
 
+.profile:hover{
+  color: #ee2034;
+  font-size: large;
+  background: #050e22;
+}
 
 
 
