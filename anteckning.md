@@ -6,4 +6,4 @@
 
 <!-- !Sökknappen o search baren e inte samma nivå -->
 
-<!-- ?Om search baren e aktiv, åker header nedåt -->
+?Om search baren e aktiv, åker header nedåt
