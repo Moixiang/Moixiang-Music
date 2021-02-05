@@ -1,30 +1,36 @@
 const searchBtn = document.querySelector(".search-btn")
-const searchInput = document.querySelector(".searcinput")
-const cancelBtn = document.querySelector(".cancel-btn")
+const searchInput = document.querySelector(".searchinput")
 const searchBox = document.querySelector(".search-box")
+const cancelBtn = document.querySelector(".cancel-btn")
 const account = document.querySelector(".account")
-const logo = document.querySelector(".logo-link")
-const logo2 = document.querySelector(".logo-img2")
+const logoLink = document.querySelector(".logo-link")
+const logoBtn = document.querySelector(".logo-btn")
+const logoImg = document.querySelector(".logo-img")
 const menuBtn = document.querySelector(".menu-btn")
+const menuBtn2 = document.querySelector(".menu-btn2")
 
 searchBtn.onclick = () =>{
-  searchBtn.classList.add("active");
-  searchBox.classList.add("active");
-  searchInput.classList.add("active");
   account.classList.add("active");
-  logo.classList.add("active");
-  logo2.classList.add("active");
-  cancelBtn.classList.add("active");
+  logoLink.classList.add("active");
+  logoBtn.classList.add("active");
+  logoImg.classList.add("active");
   menuBtn.classList.add("active");
+  menuBtn2.classList.add("active");
+  cancelBtn.classList.add("active");
+  searchBtn.classList.add("active");
+  searchInput.classList.add("active");
+  searchBox.classList.add("active");
 }
 
 cancelBtn.onclick = () =>{
+  account.classList.remove("active");
+  logoLink.classList.add("active");
+  logoBtn.classList.add("active");
+  logoImg.classList.add("active");
+  menuBtn.classList.remove("active");
+  menuBtn2.classList.remove("active");
+  searchInput.classList.remove("active");
   searchBtn.classList.remove("active");
   searchBox.classList.remove("active");
-  searchInput.classList.remove("active");
-  account.classList.remove("active");
-  logo.classList.add("active");
-  logo2.classList.add("active");
   cancelBtn.classList.remove("active");
-  menuBtn.classList.remove("active");
 }

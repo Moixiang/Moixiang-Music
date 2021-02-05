@@ -1,4 +1,4 @@
-header {
+.header-content {
   display: flex;
   justify-content: space-evenly;
   background-color: #061029;
@@ -44,30 +44,19 @@ account:hover,
   transition: all 0.3s ease 0s;
 }
 
-.logo-img,
-.logo-img2 {
+.logo-img {
   width: 5rem;
-}
-
-.logo-img2 {
-  position: absolute;
-  margin-left: 100000rem;
-}
-
-.logo-img2.active {
-  margin-left: 0;
-  visibility: visible;
 }
 
 .logo-link {
   padding: 0;
   margin: 0;
-  /* visibility: visible; */
   transition: 0.5s;
 }
 
 .menu-btn.active,
-.menu-btn2.active {
+.menu-btn2.active,
+.logo-btn.active {
   visibility: hidden;
   padding: 0;
   margin: 0;
@@ -82,7 +71,6 @@ account:hover,
 
 .search-box input.active {
   cursor: text;
-  margin-left: 10px;
   transition: 0.5s;
   margin-left: 25vw;
   visibility: visible;
@@ -91,6 +79,7 @@ account:hover,
 .search-box input {
   height: 60%;
   width: 100%;
+  margin-top: 0.6rem;
   border: none;
   background: #fff;
   font-size: 18px;
@@ -123,10 +112,9 @@ account:hover,
   cursor: pointer;
   font-size: 18px;
   position: absolute;
-  top: 20%;
-  margin-left: 7.5rem;
+  top: 30%;
+  margin-left: 5.5rem;
   visibility: hidden;
-  align-items: center;
 }
 
 .search-box .cancel-btn.active {
