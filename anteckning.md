@@ -1,4 +1,4 @@
-<!-- ToDO: Header problem-->
+<!-- !Header problem-->
 
 <!-- !Linkarna är för långt ned/bilden är för stor -->
 
@@ -6,4 +6,4 @@
 
 <!-- !Sökknappen o search baren e inte samma nivå -->
 
-?Om search baren e aktiv, åker header nedåt
+<!-- ?Om search baren e aktiv, åker header nedåt -->
