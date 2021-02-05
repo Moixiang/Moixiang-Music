@@ -40,12 +40,12 @@ nav li a:hover,
 }
 
 .logo-img:hover {
-  transform: scale(1.15);
+  transform: scale(1.1);
   transition: all 0.3s ease 0s;
 }
 
 .logo-img {
-  width: 9.4rem;
+  width: 7rem;
 }
 
 .logo-link {
