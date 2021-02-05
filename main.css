@@ -1,14 +1,15 @@
 .main-content {
   display: grid;
-  grid-template-columns: 20vw 1fr auto;
-  margin: 2em;
+  grid-template-columns: 20vw auto;
+  margin: 1rem;
 }
 
 .profile-left {
 }
 
-.profile-left span {
+i {
   display: block;
+  font-size: 2em;
 }
 
 .profile-right img {
