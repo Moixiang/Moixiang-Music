@@ -1,0 +1,22 @@
+.main-content {
+  display: grid;
+  grid-template-columns: 20vw 1fr auto;
+  margin: 2em;
+}
+
+.profile-left {
+}
+
+.profile-left span {
+  display: block;
+}
+
+.profile-right img {
+  width: 18em;
+}
+
+.profile-right {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5em 2em;
+}

@@ -21,6 +21,7 @@ searchBtn.onclick = () =>{
 cancelBtn.onclick = () =>{
   logoBtn.classList.remove("active");
   account.classList.remove("active");
+  logoBtn.classList.add("active");
   menuBtn.classList.remove("active");
   menuBtn2.classList.remove("active");
   searchInput.classList.remove("active");
