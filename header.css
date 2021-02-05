@@ -30,7 +30,7 @@ a {
 }
 
 nav li a:hover,
-account:hover,
+.account:hover,
 .search-box .cancel-btn:hover,
 .search-box .search-btn:hover,
 .account:hover {
@@ -45,7 +45,7 @@ account:hover,
 }
 
 .logo-img {
-  width: 5rem;
+  width: 9.4rem;
 }
 
 .logo-link {
