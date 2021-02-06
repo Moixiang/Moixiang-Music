@@ -55,14 +55,15 @@
 }
 
 .main-right img {
-  width: 15rem;
+  width: 12.5rem;
 }
 
 .main-right {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 5em 2em;
-  padding-left: 12px;  
+  grid-gap: 3em 2em;
+  padding-left: 12px;
+
 }
 
 .song-img {
@@ -71,10 +72,9 @@
 
 .profile:hover{
   color: #ee2034;
-  font-size: large;
+  font-size: larger;
   background: #050e22;
 }
-
 
 
 
