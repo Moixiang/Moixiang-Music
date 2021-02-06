@@ -2,7 +2,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 10000000000000000000000000000000000000000; /*  Jing vad är detta?  */
+  z-index: 1; /*  Jing vad är detta?  :) fråga inte*/
 }
 
 .header-content {
@@ -29,7 +29,7 @@ nav a {
 li,
 a {
   font-weight: 500;
-  font-size: 18px; /* Storleken på texten  */
+  font-size: 21px; /* Storleken på texten  */
   color: white;
   text-decoration: none;
   padding: 0;
@@ -37,12 +37,21 @@ a {
 }
 
 nav li a:hover,
-.account:hover,
-.search-box .cancel-btn:hover,
-.search-box .search-btn:hover,
-.account:hover {
+.search-box .search-btn:hover {
   color: #ee2034;
   font-size: larger;
+  transition: all 0.3s ease 0s;
+}
+
+.search-box .cancel-btn:hover {
+  color: #ee2034;
+  font-size: 31px;
+  transition: all 0.3s ease 0s;
+}
+
+.account:hover {
+  color: #ee2034;
+  font-size: 27px;
   transition: all 0.3s ease 0s;
 }
 
@@ -117,10 +126,10 @@ nav li a:hover,
 .search-box .cancel-btn {
   color: #fff;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 27px;
   position: absolute;
   top: 30%;
-  margin-left: 5.5rem;
+  margin-left: 4.5rem;
   visibility: hidden;
 }
 
@@ -131,7 +140,7 @@ nav li a:hover,
 .account {
   color: #fff;
   cursor: pointer;
-  font-size: 21px;
+  font-size: 24px;
   margin-right: 1rem;
   visibility: visible;
 }
