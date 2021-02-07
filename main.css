@@ -10,12 +10,10 @@
 .main-right {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 0em 2em;
   padding-left: 12px;
-
   position: absolute;
   width: 78vw;
-  top: 20%;
+  top: 15%;
   background: #071331;
   right: 0;
 
