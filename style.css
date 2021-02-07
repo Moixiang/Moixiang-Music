@@ -11,3 +11,8 @@ body {
 * {
   scroll-behavior: smooth;
 }
+
+h3 {
+  text-align: center;
+  color: white;
+}
