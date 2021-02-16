@@ -28,3 +28,5 @@ cancelBtn.onclick = () =>{
   searchBox.classList.remove("active");
   cancelBtn.classList.remove("active");
 }
+
+// ToDo: forloop för alla bilder och namn??????
