@@ -36,23 +36,30 @@ a {
   margin: 0;
 }
 
-nav li a:hover,
-.search-box .search-btn:hover {
+:is(.menu-btn.active, .menu-btn2.active, .logo-btn.active) {
+  visibility: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+:is(nav, li, a:hover, .search-box, .search-btn:hover, .search-box
+    .cancel-btn:hover, .account:hover) {
   color: #ee2034;
   font-size: larger;
   transition: all 0.3s ease 0s;
 }
 
+nav li a:hover,
+.search-box .search-btn:hover {
+  font-size: larger;
+}
+
 .search-box .cancel-btn:hover {
-  color: #ee2034;
   font-size: 31px;
-  transition: all 0.3s ease 0s;
 }
 
 .account:hover {
-  color: #ee2034;
   font-size: 27px;
-  transition: all 0.3s ease 0s;
 }
 
 .logo-img:hover {
@@ -68,14 +75,6 @@ nav li a:hover,
   padding: 0;
   margin: 0;
   transition: 0.5s;
-}
-
-.menu-btn.active,
-.menu-btn2.active,
-.logo-btn.active {
-  visibility: hidden;
-  padding: 0;
-  margin: 0;
 }
 
 .search-box {
@@ -111,21 +110,18 @@ nav li a:hover,
 }
 
 .search-box .search-btn {
-  color: #fff;
-  cursor: pointer;
   font-size: 18px;
   position: absolute;
   top: 30%;
   margin-left: 1rem;
 }
 
-.search-box .search-btn.active {
-  visibility: hidden;
+:is(.search-box .cancel-btn, .account) {
+  color: #fff;
+  cursor: pointer;
 }
 
 .search-box .cancel-btn {
-  color: #fff;
-  cursor: pointer;
   font-size: 27px;
   position: absolute;
   top: 30%;
@@ -133,18 +129,20 @@ nav li a:hover,
   visibility: hidden;
 }
 
-.search-box .cancel-btn.active {
-  visibility: visible;
-}
-
 .account {
-  color: #fff;
-  cursor: pointer;
   font-size: 24px;
   margin-right: 1rem;
   visibility: visible;
 }
 
+.search-box .cancel-btn.active {
+  visibility: visible;
+}
+
 .account.active {
+  visibility: hidden;
+}
+
+.search-box .search-btn.active {
   visibility: hidden;
 }
